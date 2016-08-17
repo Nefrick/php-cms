@@ -24,7 +24,7 @@
         <p class="lead">git commit -m "Initial commit"</p>
         <p class="lead">git log</p>
         <p class="lead">git log --since=2016-08-14</p>
-        <p class="lead">git log --until=2016-08-14</p>
+        <p class="lead" id="anchor">git log --until=2016-08-14</p>
         <p class="lead">git log --author="Nefrick"</p>
         <p class="lead">git log --grep="Init"</p>
         <p class="lead">git status</p>

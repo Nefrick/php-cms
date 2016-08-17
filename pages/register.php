@@ -1,9 +1,9 @@
 <?php Head('Regist') ?>
 <body>
-<div class="wrapper">
-<div class="header"></div>
+<div class="container">
 <?php Menu() ?>
-<div class="content">
+</div>
+<div class="container">
   <?php MassageShow(); ?>
     <form class="" action="/account/register" method="post">
       <br><input type="text" name="login" value="" maxlength="15" required="" pattern="[A-Za-z-0-9]{3,15}" title="Не менее 3 не больше 15"> - Login
@@ -29,5 +29,6 @@
 
 </div>
     <?php Footer() ?>
+    
     </body>
     </html>

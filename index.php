@@ -78,7 +78,7 @@ echo '<!DOCTYPE html><html><head><meta charset="utf-8" /><title>'.$p1.'</title><
 
 
 function Menu () {
-echo '<nav class="navbar navbar-inverse ">
+echo '<nav class="navbar navbar-inverse navbar-fixed-top" id="nav-fix">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -94,6 +94,7 @@ echo '<nav class="navbar navbar-inverse ">
             <li class="active"><a href="/">Home</a></li>
             <li><a href="/login">Login</a></li>
             <li><a href="/register">Register</a></li>
+            <li><a href="#anchor">Anchor</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -101,7 +102,10 @@ echo '<nav class="navbar navbar-inverse ">
 }
 
 function Footer () {
+echo '<script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>';
 echo '<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>';
+echo '<script src="resource/main.js"></script>';
+
 }
 
 

@@ -1,3 +1,9 @@
 * {margin: 0; padding: 0 }
 
 .MessageBlock {border: 1px solid #A83B2D; background: #D44B38; padding: 10px; }
+
+.capinp {max-width: 80px}
+.capimg {width: 110px; height: 30px; float: right; order: 1px solid #A83B2D}
+.capdiv {width: 215px; height: 30px}
+
+ 
