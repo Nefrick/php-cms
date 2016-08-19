@@ -95,6 +95,9 @@ echo '<nav class="navbar navbar-inverse navbar-fixed-top" id="nav-fix">
             <li><a href="/login">Login</a></li>
             <li><a href="/register">Register</a></li>
             <li><a href="#anchor">Anchor</a></li>
+            <li><span id="size-16">16</span></li>
+            <li><span id="size-20">20</span></li>
+            <li><span id="size-24">24</span></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

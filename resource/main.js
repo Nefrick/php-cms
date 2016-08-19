@@ -1,3 +1,19 @@
+function makeSizer(size){
+  return function () {
+    document.body.style.fontSize = size + 'px';
+  };
+}
+
+// замыкания с различными переменными
+
+var size16 = makeSizer(16);
+var size20 = makeSizer(20);
+var size24 = makeSizer(24);
+
+document.getElementById('size-16').onclick = size16;
+document.getElementById('size-20').onclick = size20;
+document.getElementById('size-24').onclick = size24;
+
 $(document).ready(function(){
 
   // fix header scroll
